@@ -17,7 +17,11 @@ body {
 	box-shadow: 10px 13px #888888;
 
 	top: 50%;
+<<<<<<< HEAD
     opacity: 0;
+=======
+    opacity: 0.3;
+>>>>>>> 49b86141e73bb9a22615942a2ec8d0a77116858d
 	left: 50%;
 	width: 415px;
 	height: 415px;
@@ -26,7 +30,11 @@ body {
 }
 
 #WinText {
+<<<<<<< HEAD
 	color: rgb(15, 17, 11);
+=======
+	color: olivedrab;
+>>>>>>> 49b86141e73bb9a22615942a2ec8d0a77116858d
 	border: 5px;
 	font-size: 800%;
 	text-align: center;
