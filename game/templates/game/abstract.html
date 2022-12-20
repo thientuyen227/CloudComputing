@@ -1,0 +1,19 @@
+{% load static %}
+<!doctypehtml>
+<html>
+    <head>
+        <title>{% block title %}TicTacToe{% endblock %}</title>
+        {% load static %}
+        <link rel="stylesheet" type="text/css" href="{% static "game/abstract_styles.css" %}"/>
+        {% block head %}
+        {% endblock %}
+        <img src="{% static '/templates/welcome/universe-6982526_1920.jpg' %}">
+    </head>
+
+    <body style="background-image: url('{% static '/templates/welcome/universe-6982526_1920.jpg' %}')">
+    
+        {% block body %}
+        
+        {% endblock %}
+    </body>
+</html>
