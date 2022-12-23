@@ -20,7 +20,7 @@ from django.urls import include, path
 from welcome.views import index, health
 
 urlpatterns = [
-    path('', index, name='home'),
+    path('', index, name='welcome'),
     path('health/', health),
     path('game/', include('game.urls')),
     path('gs/', include('gameserver.urls')),
